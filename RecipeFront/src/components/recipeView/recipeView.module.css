@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+}
+
+.header {
+    display: flex;
+}
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 1px;
+    flex: 1 1;
+    min-height: 60px;
+    background-color: #189BFF;
+}

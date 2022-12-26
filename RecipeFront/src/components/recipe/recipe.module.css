@@ -1,0 +1,27 @@
+.contentContainer {
+    display: flex;
+    color: black;
+}
+
+.contentContainer:nth-child(2n)>.content {
+    background-color: #BBE2FF;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 1px;
+    flex: 1 1;
+    min-height: 60px;
+    background-color: #91CFFF;
+}
+
+.image {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.noDesc {
+    color: gray;
+}
